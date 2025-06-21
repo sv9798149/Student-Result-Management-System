@@ -1,0 +1,19 @@
+CREATE DATABASE college;
+
+USE college;
+
+CREATE TABLE admin (
+    username VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(50)
+);
+
+INSERT INTO admin VALUES ('admin', 'admin123');
+
+CREATE TABLE marks (
+    usn VARCHAR(10) PRIMARY KEY,
+    sname VARCHAR(100),
+    marks1 INT,
+    marks2 INT,
+    marks3 INT,
+    percentage FLOAT
+);
