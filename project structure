@@ -1,0 +1,19 @@
+StudentResultSystem/
+├── WebContent/
+│   ├── index.html
+│   ├── login.jsp
+│   ├── dashboard.jsp
+│   ├── addStudent.jsp
+│   ├── viewResults.jsp
+│   └── error.jsp
+│
+├── src/
+│   └── com.result.controller/
+│       ├── LoginServlet.java
+│       ├── AddStudentServlet.java
+│       └── ViewResultsServlet.java
+│
+├── WEB-INF/
+│   ├── web.xml
+│   └── lib/
+│       └── mysql-connector-java.jar
